@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aura.shell">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:label="AuraShell"
-        android:icon="@android:drawable/sym_def_app_icon"
-        android:theme="@style/Theme.Aura">
+        android:theme="@android:style/Theme.Material.NoActionBar">
 
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:launchMode="singleTask"
-            android:stateNotNeeded="true"
-            android:theme="@style/Theme.Aura">
+            android:launchMode="singleTask">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,4 +19,3 @@
         </activity>
     </application>
 </manifest>
-
